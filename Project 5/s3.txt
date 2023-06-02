@@ -1,0 +1,560 @@
+
+s3:     file format elf32-i386
+
+Contents of section .interp:
+ 0194 2f6c6962 2f6c642d 6c696e75 782e736f  /lib/ld-linux.so
+ 01a4 2e3200                               .2.             
+Contents of section .note.gnu.build-id:
+ 01a8 04000000 14000000 03000000 474e5500  ............GNU.
+ 01b8 fdfa176b 2515f08d 4056253a 8cfd4fae  ...k%...@V%:..O.
+ 01c8 2cf767f2                             ,.g.            
+Contents of section .note.ABI-tag:
+ 01cc 04000000 10000000 01000000 474e5500  ............GNU.
+ 01dc 00000000 03000000 02000000 00000000  ................
+Contents of section .gnu.hash:
+ 01ec 02000000 0f000000 01000000 05000000  ................
+ 01fc 00200020 00000000 0f000000 ad4be3c0  . . .........K..
+Contents of section .dynsym:
+ 020c 00000000 00000000 00000000 00000000  ................
+ 021c 4e000000 00000000 00000000 12000000  N...............
+ 022c 24000000 00000000 00000000 12000000  $...............
+ 023c c3000000 00000000 00000000 20000000  ............ ...
+ 024c 55000000 00000000 00000000 12000000  U...............
+ 025c 5b000000 00000000 00000000 12000000  [...............
+ 026c 67000000 00000000 00000000 12000000  g...............
+ 027c 15000000 00000000 00000000 22000000  ............"...
+ 028c 43000000 00000000 00000000 12000000  C...............
+ 029c df000000 00000000 00000000 20000000  ............ ...
+ 02ac 10000000 00000000 00000000 12000000  ................
+ 02bc 48000000 00000000 00000000 11000000  H...............
+ 02cc 61000000 00000000 00000000 12000000  a...............
+ 02dc 36000000 00000000 00000000 12000000  6...............
+ 02ec ee000000 00000000 00000000 20000000  ............ ...
+ 02fc 01000000 04200000 04000000 11001000  ..... ..........
+Contents of section .dynstr:
+ 030c 005f494f 5f737464 696e5f75 73656400  ._IO_stdin_used.
+ 031c 65786974 005f5f63 78615f66 696e616c  exit.__cxa_final
+ 032c 697a6500 5f5f6c69 62635f73 74617274  ize.__libc_start
+ 033c 5f6d6169 6e005f5f 7072696e 74665f63  _main.__printf_c
+ 034c 686b0070 75747300 73746469 6e007374  hk.puts.stdin.st
+ 035c 72636d70 00666765 74730073 6c656570  rcmp.fgets.sleep
+ 036c 00666f70 656e005f 5f737461 636b5f63  .fopen.__stack_c
+ 037c 686b5f66 61696c00 6c696263 2e736f2e  hk_fail.libc.so.
+ 038c 3600474c 4942435f 322e332e 3400474c  6.GLIBC_2.3.4.GL
+ 039c 4942435f 322e3100 474c4942 435f322e  IBC_2.1.GLIBC_2.
+ 03ac 312e3300 474c4942 435f322e 3400474c  1.3.GLIBC_2.4.GL
+ 03bc 4942435f 322e3334 00474c49 42435f32  IBC_2.34.GLIBC_2
+ 03cc 2e30005f 49544d5f 64657265 67697374  .0._ITM_deregist
+ 03dc 6572544d 436c6f6e 65546162 6c65005f  erTMCloneTable._
+ 03ec 5f676d6f 6e5f7374 6172745f 5f005f49  _gmon_start__._I
+ 03fc 544d5f72 65676973 74657254 4d436c6f  TM_registerTMClo
+ 040c 6e655461 626c6500                    neTable.        
+Contents of section .gnu.version:
+ 0414 00000200 03000100 02000200 04000500  ................
+ 0424 02000100 02000200 06000700 01000100  ................
+Contents of section .gnu.version_r:
+ 0434 01000600 78000000 10000000 00000000  ....x...........
+ 0444 74196909 00000700 82000000 10000000  t.i.............
+ 0454 1169690d 00000600 8e000000 10000000  .ii.............
+ 0464 731f6909 00000500 98000000 10000000  s.i.............
+ 0474 1469690d 00000400 a4000000 10000000  .ii.............
+ 0484 b4919606 00000300 ae000000 10000000  ................
+ 0494 1069690d 00000200 b9000000 00000000  .ii.............
+Contents of section .rel.dyn:
+ 04a4 b83e0000 08000000 bc3e0000 08000000  .>.......>......
+ 04b4 f83f0000 08000000 04400000 08000000  .?.......@......
+ 04c4 08400000 08000000 0c400000 08000000  .@.......@......
+ 04d4 10400000 08000000 14400000 08000000  .@.......@......
+ 04e4 18400000 08000000 e83f0000 06030000  .@.......?......
+ 04f4 ec3f0000 06070000 f03f0000 06090000  .?.......?......
+ 0504 f43f0000 060b0000 fc3f0000 060e0000  .?.......?......
+Contents of section .rel.plt:
+ 0514 c43f0000 07010000 c83f0000 07020000  .?.......?......
+ 0524 cc3f0000 07040000 d03f0000 07050000  .?.......?......
+ 0534 d43f0000 07060000 d83f0000 07080000  .?.......?......
+ 0544 dc3f0000 070a0000 e03f0000 070c0000  .?.......?......
+ 0554 e43f0000 070d0000                    .?......        
+Contents of section .init:
+ 1000 f30f1efb 5383ec08 e8030100 0081c3ab  ....S...........
+ 1010 2f00008b 83380000 0085c074 02ffd083  /....8.....t....
+ 1020 c4085bc3                             ..[.            
+Contents of section .plt:
+ 1030 ffb30400 0000ffa3 08000000 00000000  ................
+ 1040 ffa30c00 00006800 000000e9 e0ffffff  ......h.........
+ 1050 ffa31000 00006808 000000e9 d0ffffff  ......h.........
+ 1060 ffa31400 00006810 000000e9 c0ffffff  ......h.........
+ 1070 ffa31800 00006818 000000e9 b0ffffff  ......h.........
+ 1080 ffa31c00 00006820 000000e9 a0ffffff  ......h ........
+ 1090 ffa32000 00006828 000000e9 90ffffff  .. ...h(........
+ 10a0 ffa32400 00006830 000000e9 80ffffff  ..$...h0........
+ 10b0 ffa32800 00006838 000000e9 70ffffff  ..(...h8....p...
+ 10c0 ffa32c00 00006840 000000e9 60ffffff  ..,...h@....`...
+Contents of section .plt.got:
+ 10d0 ffa33400 00006690                    ..4...f.        
+Contents of section .text:
+ 10e0 f30f1efb 31ed5e89 e183e4f0 505452e8  ....1.^.....PTR.
+ 10f0 18000000 81c3c42e 00006a00 6a005156  ..........j.j.QV
+ 1100 ffb34000 0000e845 fffffff4 8b1c24c3  ..@....E......$.
+ 1110 8b1c24c3 66906690 66906690 66906690  ..$.f.f.f.f.f.f.
+ 1120 e8e40000 0081c293 2e00008d 8a640000  .............d..
+ 1130 008d8264 00000039 c8741d8b 82300000  ...d...9.t...0..
+ 1140 0085c074 135589e5 83ec1451 ffd083c4  ...t.U.....Q....
+ 1150 10c9c38d 74260090 c38db426 00000000  ....t&.....&....
+ 1160 e8a40000 0081c253 2e000055 89e5538d  .......S...U..S.
+ 1170 8a640000 008d8264 00000083 ec0429c8  .d.....d......).
+ 1180 89c3c1e8 1fc1fb02 01d8d1f8 74148b92  ............t...
+ 1190 44000000 85d2740a 83ec0850 51ffd283  D.....t....PQ...
+ 11a0 c4108b5d fcc9c38d b4260000 00006690  ...].....&....f.
+ 11b0 f30f1efb 5589e553 e853ffff ff81c3fb  ....U..S.S......
+ 11c0 2d000083 ec0480bb 64000000 0075278b  -.......d....u'.
+ 11d0 83340000 0085c074 1183ec0c ffb34c00  .4.....t......L.
+ 11e0 0000e8e9 feffff83 c410e831 ffffffc6  ...........1....
+ 11f0 83640000 00018b5d fcc9c38d 74260090  .d.....]....t&..
+ 1200 f30f1efb e957ffff ff8b1424 c3565383  .....W.....$.VS.
+ 1210 ec10e8f9 feffff81 c3a12d00 006a01e8  ..........-..j..
+ 1220 4cfeffff 8db350e0 ffff8934 24e85efe  L.....P....4$.^.
+ 1230 ffff8d83 78e0ffff 890424e8 50feffff  ....x.....$.P...
+ 1240 893424e8 48feffff c7042401 000000e8  .4$.H.....$.....
+ 1250 4cfeffff 565383ec 10e8b2fe ffff81c3  L...VS..........
+ 1260 5a2d0000 6a01e805 feffff8d b3a0e0ff  Z-..j...........
+ 1270 ff893424 e817feff ff8d83c4 e0ffff89  ..4$............
+ 1280 0424e809 feffff89 3424e801 feffff83  .$......4$......
+ 1290 c4145b5e c38d4c24 0483e4f0 ff71fc55  ..[^..L$.....q.U
+ 12a0 89e55756 535181ec 28020000 e85ffeff  ..WVSQ..(...._..
+ 12b0 ff81c307 2d00008b 510465a1 14000000  ....-...Q.e.....
+ 12c0 8945e431 c08b833c 0000008b 38833902  .E.1...<....8.9.
+ 12d0 741fbe00 0000008b 833c0000 008985d4  t........<......
+ 12e0 fdffff8d 83eae0ff ff8985d0 fdffffeb  ................
+ 12f0 3c83ec08 8d83e8e0 ffff50ff 7204e8ad  <.........P.r...
+ 1300 fdffff89 c783c410 ebc883ec 048d4601  ..............F.
+ 1310 50ffb5d0 fdffff6a 01e8a2fd ffff83c4  P......j........
+ 1320 10eb14e8 e5feffff 83fe047f 428b85d4  ............B...
+ 1330 fdffff39 3874d383 ec045768 00020000  ...98t....Wh....
+ 1340 8d85e4fd ffff50e8 14fdffff 83c41085  ......P.........
+ 1350 c074d583 ec08ffb4 b3500000 0050e8dd  .t.......P...P..
+ 1360 fcffff83 c41085c0 75b983c6 01ebb9e8  ........u.......
+ 1370 e0feffff 8b45e465 2b051400 00007511  .....E.e+.....u.
+ 1380 b8000000 008d65f0 595b5e5f 5d8d61fc  ......e.Y[^_].a.
+ 1390 c3e80a00 00006690 66906690 66906690  ......f.f.f.f.f.
+ 13a0 f30f1efb 53e866fd ffff81c3 0e2c0000  ....S.f......,..
+ 13b0 83ec08e8 c8fcffff                    ........        
+Contents of section .fini:
+ 13b8 f30f1efb 5383ec08 e84bfdff ff81c3f3  ....S....K......
+ 13c8 2b000083 c4085bc3                    +.....[.        
+Contents of section .rodata:
+ 2000 03000000 01000200 2a2a2a2a 2a2a2a2a  ........********
+ 2010 2a2a2a2a 2a2a2a2a 2a2a2a2a 2a2a2a2a  ****************
+ 2020 2a2a2a2a 2a2a2a2a 2a2a2a2a 2a2a2a00  ***************.
+ 2030 2a2a2a2a 2a2a2a2a 2a2a2a20 414c4152  *********** ALAR
+ 2040 4d205452 49474745 52454420 2a2a2a2a  M TRIGGERED ****
+ 2050 2a2a2a2a 2a2a2a00 21212121 21212121  *******.!!!!!!!!
+ 2060 21212121 21212121 21212121 21212121  !!!!!!!!!!!!!!!!
+ 2070 21212121 21212121 21212100 21212121  !!!!!!!!!!!.!!!!
+ 2080 21212121 21212120 53414645 204f5045  !!!!!!! SAFE OPE
+ 2090 4e454420 21212121 21212121 21212100  NED !!!!!!!!!!!.
+ 20a0 7200696e 70757420 25642028 6f662035  r.input %d (of 5
+ 20b0 293f2000 7468652d 73756363 65737366  )? .the-successf
+ 20c0 756c0a00 57652d74 7261696e 65642d61  ul..We-trained-a
+ 20d0 0a00616e 642d696e 74756974 6976650a  ..and-intuitive.
+ 20e0 00726f62 6f740a00 5468652d 6469616c  .robot..The-dial
+ 20f0 6f677565 0a00                        ogue..          
+Contents of section .eh_frame_hdr:
+ 20f8 011b033b 40000000 07000000 38efffff  ...;@.......8...
+ 2108 70000000 d8efffff 94000000 e8efffff  p...............
+ 2118 5c000000 15f1ffff a8000000 5cf1ffff  \...........\...
+ 2128 cc000000 9df1ffff f8000000 a8f2ffff  ................
+ 2138 40010000                             @...            
+Contents of section .eh_frame:
+ 213c 14000000 00000000 017a5200 017c0801  .........zR..|..
+ 214c 1b0c0404 88010000 10000000 1c000000  ................
+ 215c 84efffff 30000000 00440708 20000000  ....0....D.. ...
+ 216c 30000000 c0eeffff a0000000 000e0846  0..............F
+ 217c 0e0c4a0f 0b740478 003f1a3b 2a322422  ..J..t.x.?.;*2$"
+ 218c 10000000 54000000 3cefffff 08000000  ....T...<.......
+ 219c 00000000 20000000 68000000 65f0ffff  .... ...h...e...
+ 21ac 47000000 00410e08 8602410e 0c830343  G....A....A....C
+ 21bc 0e1c4d0e 20000000 28000000 8c000000  ..M. ...(.......
+ 21cc 88f0ffff 41000000 00410e08 8602410e  ....A....A....A.
+ 21dc 0c830343 0e1c4d0e 206c0e0c 41c30e08  ...C..M. l..A...
+ 21ec 41c60e04 44000000 b8000000 9df0ffff  A...D...........
+ 21fc 01010000 00440c01 00491005 02750044  .....D...I...u.D
+ 220c 0f037570 06100702 757c1006 02757810  ..up....u|...ux.
+ 221c 03027574 02e30ac1 0c010041 c341c641  ..ut.......A.A.A
+ 222c c741c543 0c040441 0b000000 18000000  .A.C...A........
+ 223c 00010000 60f1ffff 18000000 00450e08  ....`........E..
+ 224c 83024e0e 10000000 00000000           ..N.........    
+Contents of section .init_array:
+ 3eb8 00120000                             ....            
+Contents of section .fini_array:
+ 3ebc b0110000                             ....            
+Contents of section .dynamic:
+ 3ec0 01000000 78000000 0c000000 00100000  ....x...........
+ 3ed0 0d000000 b8130000 19000000 b83e0000  .............>..
+ 3ee0 1b000000 04000000 1a000000 bc3e0000  .............>..
+ 3ef0 1c000000 04000000 f5feff6f ec010000  ...........o....
+ 3f00 05000000 0c030000 06000000 0c020000  ................
+ 3f10 0a000000 08010000 0b000000 10000000  ................
+ 3f20 15000000 00000000 03000000 b83f0000  .............?..
+ 3f30 02000000 48000000 14000000 11000000  ....H...........
+ 3f40 17000000 14050000 11000000 a4040000  ................
+ 3f50 12000000 70000000 13000000 08000000  ....p...........
+ 3f60 1e000000 08000000 fbffff6f 01000008  ...........o....
+ 3f70 feffff6f 34040000 ffffff6f 01000000  ...o4......o....
+ 3f80 f0ffff6f 14040000 faffff6f 09000000  ...o.......o....
+ 3f90 00000000 00000000 00000000 00000000  ................
+ 3fa0 00000000 00000000 00000000 00000000  ................
+ 3fb0 00000000 00000000                    ........        
+Contents of section .got:
+ 3fb8 c03e0000 00000000 00000000 46100000  .>..........F...
+ 3fc8 56100000 66100000 76100000 86100000  V...f...v.......
+ 3fd8 96100000 a6100000 b6100000 c6100000  ................
+ 3fe8 00000000 00000000 00000000 00000000  ................
+ 3ff8 95120000 00000000                    ........        
+Contents of section .data:
+ 4000 00000000 04400000 b4200000 c4200000  .....@... ... ..
+ 4010 d2200000 e1200000 e8200000           . ... ... ..    
+Contents of section .comment:
+ 0000 4743433a 20285562 756e7475 2031312e  GCC: (Ubuntu 11.
+ 0010 332e302d 31756275 6e747531 7e32322e  3.0-1ubuntu1~22.
+ 0020 30342920 31312e33 2e3000             04) 11.3.0.     
+
+Disassembly of section .init:
+
+00001000 <_init>:
+    1000:	f3 0f 1e fb          	endbr32 
+    1004:	53                   	push   %ebx
+    1005:	83 ec 08             	sub    $0x8,%esp
+    1008:	e8 03 01 00 00       	call   1110 <__x86.get_pc_thunk.bx>
+    100d:	81 c3 ab 2f 00 00    	add    $0x2fab,%ebx
+    1013:	8b 83 38 00 00 00    	mov    0x38(%ebx),%eax
+    1019:	85 c0                	test   %eax,%eax
+    101b:	74 02                	je     101f <_init+0x1f>
+    101d:	ff d0                	call   *%eax
+    101f:	83 c4 08             	add    $0x8,%esp
+    1022:	5b                   	pop    %ebx
+    1023:	c3                   	ret    
+
+Disassembly of section .plt:
+
+00001030 <strcmp@plt-0x10>:
+    1030:	ff b3 04 00 00 00    	push   0x4(%ebx)
+    1036:	ff a3 08 00 00 00    	jmp    *0x8(%ebx)
+    103c:	00 00                	add    %al,(%eax)
+	...
+
+00001040 <strcmp@plt>:
+    1040:	ff a3 0c 00 00 00    	jmp    *0xc(%ebx)
+    1046:	68 00 00 00 00       	push   $0x0
+    104b:	e9 e0 ff ff ff       	jmp    1030 <_init+0x30>
+
+00001050 <__libc_start_main@plt>:
+    1050:	ff a3 10 00 00 00    	jmp    *0x10(%ebx)
+    1056:	68 08 00 00 00       	push   $0x8
+    105b:	e9 d0 ff ff ff       	jmp    1030 <_init+0x30>
+
+00001060 <fgets@plt>:
+    1060:	ff a3 14 00 00 00    	jmp    *0x14(%ebx)
+    1066:	68 10 00 00 00       	push   $0x10
+    106b:	e9 c0 ff ff ff       	jmp    1030 <_init+0x30>
+
+00001070 <sleep@plt>:
+    1070:	ff a3 18 00 00 00    	jmp    *0x18(%ebx)
+    1076:	68 18 00 00 00       	push   $0x18
+    107b:	e9 b0 ff ff ff       	jmp    1030 <_init+0x30>
+
+00001080 <__stack_chk_fail@plt>:
+    1080:	ff a3 1c 00 00 00    	jmp    *0x1c(%ebx)
+    1086:	68 20 00 00 00       	push   $0x20
+    108b:	e9 a0 ff ff ff       	jmp    1030 <_init+0x30>
+
+00001090 <puts@plt>:
+    1090:	ff a3 20 00 00 00    	jmp    *0x20(%ebx)
+    1096:	68 28 00 00 00       	push   $0x28
+    109b:	e9 90 ff ff ff       	jmp    1030 <_init+0x30>
+
+000010a0 <exit@plt>:
+    10a0:	ff a3 24 00 00 00    	jmp    *0x24(%ebx)
+    10a6:	68 30 00 00 00       	push   $0x30
+    10ab:	e9 80 ff ff ff       	jmp    1030 <_init+0x30>
+
+000010b0 <fopen@plt>:
+    10b0:	ff a3 28 00 00 00    	jmp    *0x28(%ebx)
+    10b6:	68 38 00 00 00       	push   $0x38
+    10bb:	e9 70 ff ff ff       	jmp    1030 <_init+0x30>
+
+000010c0 <__printf_chk@plt>:
+    10c0:	ff a3 2c 00 00 00    	jmp    *0x2c(%ebx)
+    10c6:	68 40 00 00 00       	push   $0x40
+    10cb:	e9 60 ff ff ff       	jmp    1030 <_init+0x30>
+
+Disassembly of section .plt.got:
+
+000010d0 <__cxa_finalize@plt>:
+    10d0:	ff a3 34 00 00 00    	jmp    *0x34(%ebx)
+    10d6:	66 90                	xchg   %ax,%ax
+
+Disassembly of section .text:
+
+000010e0 <_start>:
+    10e0:	f3 0f 1e fb          	endbr32 
+    10e4:	31 ed                	xor    %ebp,%ebp
+    10e6:	5e                   	pop    %esi
+    10e7:	89 e1                	mov    %esp,%ecx
+    10e9:	83 e4 f0             	and    $0xfffffff0,%esp
+    10ec:	50                   	push   %eax
+    10ed:	54                   	push   %esp
+    10ee:	52                   	push   %edx
+    10ef:	e8 18 00 00 00       	call   110c <_start+0x2c>
+    10f4:	81 c3 c4 2e 00 00    	add    $0x2ec4,%ebx
+    10fa:	6a 00                	push   $0x0
+    10fc:	6a 00                	push   $0x0
+    10fe:	51                   	push   %ecx
+    10ff:	56                   	push   %esi
+    1100:	ff b3 40 00 00 00    	push   0x40(%ebx)
+    1106:	e8 45 ff ff ff       	call   1050 <__libc_start_main@plt>
+    110b:	f4                   	hlt    
+    110c:	8b 1c 24             	mov    (%esp),%ebx
+    110f:	c3                   	ret    
+
+00001110 <__x86.get_pc_thunk.bx>:
+    1110:	8b 1c 24             	mov    (%esp),%ebx
+    1113:	c3                   	ret    
+    1114:	66 90                	xchg   %ax,%ax
+    1116:	66 90                	xchg   %ax,%ax
+    1118:	66 90                	xchg   %ax,%ax
+    111a:	66 90                	xchg   %ax,%ax
+    111c:	66 90                	xchg   %ax,%ax
+    111e:	66 90                	xchg   %ax,%ax
+
+00001120 <deregister_tm_clones>:
+    1120:	e8 e4 00 00 00       	call   1209 <__x86.get_pc_thunk.dx>
+    1125:	81 c2 93 2e 00 00    	add    $0x2e93,%edx
+    112b:	8d 8a 64 00 00 00    	lea    0x64(%edx),%ecx
+    1131:	8d 82 64 00 00 00    	lea    0x64(%edx),%eax
+    1137:	39 c8                	cmp    %ecx,%eax
+    1139:	74 1d                	je     1158 <deregister_tm_clones+0x38>
+    113b:	8b 82 30 00 00 00    	mov    0x30(%edx),%eax
+    1141:	85 c0                	test   %eax,%eax
+    1143:	74 13                	je     1158 <deregister_tm_clones+0x38>
+    1145:	55                   	push   %ebp
+    1146:	89 e5                	mov    %esp,%ebp
+    1148:	83 ec 14             	sub    $0x14,%esp
+    114b:	51                   	push   %ecx
+    114c:	ff d0                	call   *%eax
+    114e:	83 c4 10             	add    $0x10,%esp
+    1151:	c9                   	leave  
+    1152:	c3                   	ret    
+    1153:	8d 74 26 00          	lea    0x0(%esi,%eiz,1),%esi
+    1157:	90                   	nop
+    1158:	c3                   	ret    
+    1159:	8d b4 26 00 00 00 00 	lea    0x0(%esi,%eiz,1),%esi
+
+00001160 <register_tm_clones>:
+    1160:	e8 a4 00 00 00       	call   1209 <__x86.get_pc_thunk.dx>
+    1165:	81 c2 53 2e 00 00    	add    $0x2e53,%edx
+    116b:	55                   	push   %ebp
+    116c:	89 e5                	mov    %esp,%ebp
+    116e:	53                   	push   %ebx
+    116f:	8d 8a 64 00 00 00    	lea    0x64(%edx),%ecx
+    1175:	8d 82 64 00 00 00    	lea    0x64(%edx),%eax
+    117b:	83 ec 04             	sub    $0x4,%esp
+    117e:	29 c8                	sub    %ecx,%eax
+    1180:	89 c3                	mov    %eax,%ebx
+    1182:	c1 e8 1f             	shr    $0x1f,%eax
+    1185:	c1 fb 02             	sar    $0x2,%ebx
+    1188:	01 d8                	add    %ebx,%eax
+    118a:	d1 f8                	sar    %eax
+    118c:	74 14                	je     11a2 <register_tm_clones+0x42>
+    118e:	8b 92 44 00 00 00    	mov    0x44(%edx),%edx
+    1194:	85 d2                	test   %edx,%edx
+    1196:	74 0a                	je     11a2 <register_tm_clones+0x42>
+    1198:	83 ec 08             	sub    $0x8,%esp
+    119b:	50                   	push   %eax
+    119c:	51                   	push   %ecx
+    119d:	ff d2                	call   *%edx
+    119f:	83 c4 10             	add    $0x10,%esp
+    11a2:	8b 5d fc             	mov    -0x4(%ebp),%ebx
+    11a5:	c9                   	leave  
+    11a6:	c3                   	ret    
+    11a7:	8d b4 26 00 00 00 00 	lea    0x0(%esi,%eiz,1),%esi
+    11ae:	66 90                	xchg   %ax,%ax
+
+000011b0 <__do_global_dtors_aux>:
+    11b0:	f3 0f 1e fb          	endbr32 
+    11b4:	55                   	push   %ebp
+    11b5:	89 e5                	mov    %esp,%ebp
+    11b7:	53                   	push   %ebx
+    11b8:	e8 53 ff ff ff       	call   1110 <__x86.get_pc_thunk.bx>
+    11bd:	81 c3 fb 2d 00 00    	add    $0x2dfb,%ebx
+    11c3:	83 ec 04             	sub    $0x4,%esp
+    11c6:	80 bb 64 00 00 00 00 	cmpb   $0x0,0x64(%ebx)
+    11cd:	75 27                	jne    11f6 <__do_global_dtors_aux+0x46>
+    11cf:	8b 83 34 00 00 00    	mov    0x34(%ebx),%eax
+    11d5:	85 c0                	test   %eax,%eax
+    11d7:	74 11                	je     11ea <__do_global_dtors_aux+0x3a>
+    11d9:	83 ec 0c             	sub    $0xc,%esp
+    11dc:	ff b3 4c 00 00 00    	push   0x4c(%ebx)
+    11e2:	e8 e9 fe ff ff       	call   10d0 <__cxa_finalize@plt>
+    11e7:	83 c4 10             	add    $0x10,%esp
+    11ea:	e8 31 ff ff ff       	call   1120 <deregister_tm_clones>
+    11ef:	c6 83 64 00 00 00 01 	movb   $0x1,0x64(%ebx)
+    11f6:	8b 5d fc             	mov    -0x4(%ebp),%ebx
+    11f9:	c9                   	leave  
+    11fa:	c3                   	ret    
+    11fb:	8d 74 26 00          	lea    0x0(%esi,%eiz,1),%esi
+    11ff:	90                   	nop
+
+00001200 <frame_dummy>:
+    1200:	f3 0f 1e fb          	endbr32 
+    1204:	e9 57 ff ff ff       	jmp    1160 <register_tm_clones>
+
+00001209 <__x86.get_pc_thunk.dx>:
+    1209:	8b 14 24             	mov    (%esp),%edx
+    120c:	c3                   	ret    
+
+0000120d <fail>:
+    120d:	56                   	push   %esi
+    120e:	53                   	push   %ebx
+    120f:	83 ec 10             	sub    $0x10,%esp
+    1212:	e8 f9 fe ff ff       	call   1110 <__x86.get_pc_thunk.bx>
+    1217:	81 c3 a1 2d 00 00    	add    $0x2da1,%ebx
+    121d:	6a 01                	push   $0x1
+    121f:	e8 4c fe ff ff       	call   1070 <sleep@plt>
+    1224:	8d b3 50 e0 ff ff    	lea    -0x1fb0(%ebx),%esi
+    122a:	89 34 24             	mov    %esi,(%esp)
+    122d:	e8 5e fe ff ff       	call   1090 <puts@plt>
+    1232:	8d 83 78 e0 ff ff    	lea    -0x1f88(%ebx),%eax
+    1238:	89 04 24             	mov    %eax,(%esp)
+    123b:	e8 50 fe ff ff       	call   1090 <puts@plt>
+    1240:	89 34 24             	mov    %esi,(%esp)
+    1243:	e8 48 fe ff ff       	call   1090 <puts@plt>
+    1248:	c7 04 24 01 00 00 00 	movl   $0x1,(%esp)
+    124f:	e8 4c fe ff ff       	call   10a0 <exit@plt>
+
+00001254 <success>:
+    1254:	56                   	push   %esi
+    1255:	53                   	push   %ebx
+    1256:	83 ec 10             	sub    $0x10,%esp
+    1259:	e8 b2 fe ff ff       	call   1110 <__x86.get_pc_thunk.bx>
+    125e:	81 c3 5a 2d 00 00    	add    $0x2d5a,%ebx
+    1264:	6a 01                	push   $0x1
+    1266:	e8 05 fe ff ff       	call   1070 <sleep@plt>
+    126b:	8d b3 a0 e0 ff ff    	lea    -0x1f60(%ebx),%esi
+    1271:	89 34 24             	mov    %esi,(%esp)
+    1274:	e8 17 fe ff ff       	call   1090 <puts@plt>
+    1279:	8d 83 c4 e0 ff ff    	lea    -0x1f3c(%ebx),%eax
+    127f:	89 04 24             	mov    %eax,(%esp)
+    1282:	e8 09 fe ff ff       	call   1090 <puts@plt>
+    1287:	89 34 24             	mov    %esi,(%esp)
+    128a:	e8 01 fe ff ff       	call   1090 <puts@plt>
+    128f:	83 c4 14             	add    $0x14,%esp
+    1292:	5b                   	pop    %ebx
+    1293:	5e                   	pop    %esi
+    1294:	c3                   	ret    
+
+00001295 <main>:
+    1295:	8d 4c 24 04          	lea    0x4(%esp),%ecx
+    1299:	83 e4 f0             	and    $0xfffffff0,%esp
+    129c:	ff 71 fc             	push   -0x4(%ecx)
+    129f:	55                   	push   %ebp
+    12a0:	89 e5                	mov    %esp,%ebp
+    12a2:	57                   	push   %edi
+    12a3:	56                   	push   %esi
+    12a4:	53                   	push   %ebx
+    12a5:	51                   	push   %ecx
+    12a6:	81 ec 28 02 00 00    	sub    $0x228,%esp
+    12ac:	e8 5f fe ff ff       	call   1110 <__x86.get_pc_thunk.bx>
+    12b1:	81 c3 07 2d 00 00    	add    $0x2d07,%ebx
+    12b7:	8b 51 04             	mov    0x4(%ecx),%edx
+    12ba:	65 a1 14 00 00 00    	mov    %gs:0x14,%eax
+    12c0:	89 45 e4             	mov    %eax,-0x1c(%ebp)
+    12c3:	31 c0                	xor    %eax,%eax
+    12c5:	8b 83 3c 00 00 00    	mov    0x3c(%ebx),%eax
+    12cb:	8b 38                	mov    (%eax),%edi
+    12cd:	83 39 02             	cmpl   $0x2,(%ecx)
+    12d0:	74 1f                	je     12f1 <main+0x5c>
+    12d2:	be 00 00 00 00       	mov    $0x0,%esi
+    12d7:	8b 83 3c 00 00 00    	mov    0x3c(%ebx),%eax
+    12dd:	89 85 d4 fd ff ff    	mov    %eax,-0x22c(%ebp)
+    12e3:	8d 83 ea e0 ff ff    	lea    -0x1f16(%ebx),%eax
+    12e9:	89 85 d0 fd ff ff    	mov    %eax,-0x230(%ebp)
+    12ef:	eb 3c                	jmp    132d <main+0x98>
+    12f1:	83 ec 08             	sub    $0x8,%esp
+    12f4:	8d 83 e8 e0 ff ff    	lea    -0x1f18(%ebx),%eax
+    12fa:	50                   	push   %eax
+    12fb:	ff 72 04             	push   0x4(%edx)
+    12fe:	e8 ad fd ff ff       	call   10b0 <fopen@plt>
+    1303:	89 c7                	mov    %eax,%edi
+    1305:	83 c4 10             	add    $0x10,%esp
+    1308:	eb c8                	jmp    12d2 <main+0x3d>
+    130a:	83 ec 04             	sub    $0x4,%esp
+    130d:	8d 46 01             	lea    0x1(%esi),%eax
+    1310:	50                   	push   %eax
+    1311:	ff b5 d0 fd ff ff    	push   -0x230(%ebp)
+    1317:	6a 01                	push   $0x1
+    1319:	e8 a2 fd ff ff       	call   10c0 <__printf_chk@plt>
+    131e:	83 c4 10             	add    $0x10,%esp
+    1321:	eb 14                	jmp    1337 <main+0xa2>
+    1323:	e8 e5 fe ff ff       	call   120d <fail>
+    1328:	83 fe 04             	cmp    $0x4,%esi
+    132b:	7f 42                	jg     136f <main+0xda>
+    132d:	8b 85 d4 fd ff ff    	mov    -0x22c(%ebp),%eax
+    1333:	39 38                	cmp    %edi,(%eax)
+    1335:	74 d3                	je     130a <main+0x75>
+    1337:	83 ec 04             	sub    $0x4,%esp
+    133a:	57                   	push   %edi
+    133b:	68 00 02 00 00       	push   $0x200
+    1340:	8d 85 e4 fd ff ff    	lea    -0x21c(%ebp),%eax
+    1346:	50                   	push   %eax
+    1347:	e8 14 fd ff ff       	call   1060 <fgets@plt>
+    134c:	83 c4 10             	add    $0x10,%esp
+    134f:	85 c0                	test   %eax,%eax
+    1351:	74 d5                	je     1328 <main+0x93>
+    1353:	83 ec 08             	sub    $0x8,%esp
+    1356:	ff b4 b3 50 00 00 00 	push   0x50(%ebx,%esi,4)
+    135d:	50                   	push   %eax
+    135e:	e8 dd fc ff ff       	call   1040 <strcmp@plt>
+    1363:	83 c4 10             	add    $0x10,%esp
+    1366:	85 c0                	test   %eax,%eax
+    1368:	75 b9                	jne    1323 <main+0x8e>
+    136a:	83 c6 01             	add    $0x1,%esi
+    136d:	eb b9                	jmp    1328 <main+0x93>
+    136f:	e8 e0 fe ff ff       	call   1254 <success>
+    1374:	8b 45 e4             	mov    -0x1c(%ebp),%eax
+    1377:	65 2b 05 14 00 00 00 	sub    %gs:0x14,%eax
+    137e:	75 11                	jne    1391 <main+0xfc>
+    1380:	b8 00 00 00 00       	mov    $0x0,%eax
+    1385:	8d 65 f0             	lea    -0x10(%ebp),%esp
+    1388:	59                   	pop    %ecx
+    1389:	5b                   	pop    %ebx
+    138a:	5e                   	pop    %esi
+    138b:	5f                   	pop    %edi
+    138c:	5d                   	pop    %ebp
+    138d:	8d 61 fc             	lea    -0x4(%ecx),%esp
+    1390:	c3                   	ret    
+    1391:	e8 0a 00 00 00       	call   13a0 <__stack_chk_fail_local>
+    1396:	66 90                	xchg   %ax,%ax
+    1398:	66 90                	xchg   %ax,%ax
+    139a:	66 90                	xchg   %ax,%ax
+    139c:	66 90                	xchg   %ax,%ax
+    139e:	66 90                	xchg   %ax,%ax
+
+000013a0 <__stack_chk_fail_local>:
+    13a0:	f3 0f 1e fb          	endbr32 
+    13a4:	53                   	push   %ebx
+    13a5:	e8 66 fd ff ff       	call   1110 <__x86.get_pc_thunk.bx>
+    13aa:	81 c3 0e 2c 00 00    	add    $0x2c0e,%ebx
+    13b0:	83 ec 08             	sub    $0x8,%esp
+    13b3:	e8 c8 fc ff ff       	call   1080 <__stack_chk_fail@plt>
+
+Disassembly of section .fini:
+
+000013b8 <_fini>:
+    13b8:	f3 0f 1e fb          	endbr32 
+    13bc:	53                   	push   %ebx
+    13bd:	83 ec 08             	sub    $0x8,%esp
+    13c0:	e8 4b fd ff ff       	call   1110 <__x86.get_pc_thunk.bx>
+    13c5:	81 c3 f3 2b 00 00    	add    $0x2bf3,%ebx
+    13cb:	83 c4 08             	add    $0x8,%esp
+    13ce:	5b                   	pop    %ebx
+    13cf:	c3                   	ret    
